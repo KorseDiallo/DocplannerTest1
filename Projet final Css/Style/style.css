@@ -1,0 +1,478 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-color: white;
+}
+header{
+    width: 100%;
+    height: 100px;
+    /* background-color: blue; */
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    /* position: fixed; */
+}
+header .logo{
+    width:300px;
+    height: auto;
+}
+header .logo img{
+    width: 100%;
+    height: auto;
+}
+header nav .lien{
+    display: flex;
+    list-style-type: none;
+}
+
+ header nav .lien li{
+    margin: 20px;
+}
+
+header nav .lien li a{
+    text-decoration: none;
+}
+.after_header{
+    width: 100%;
+    height: auto;
+    /* background-color: bisque; */
+}
+.after_header_img{
+    width: 200px;
+    height: auto;
+    margin: 0 900px;
+    margin-bottom: 50px;
+}
+.after_header h1{
+    text-align: center;
+    margin-bottom: 100px;
+    /* color:aquamarine; */
+    
+}
+.after_header1{
+    width: 100%;
+    height: auto;
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+.after_header1_bloc1{
+    width: 800px;
+    height: auto;
+    font-size: 30px;
+    /* background-color: blue; */
+}
+.after_header_bloc1 p{
+    text-align: center;
+}
+.principal{
+    width: 100%;
+    height: 650px;
+    /* background-color: bisque; */
+    display:flex;
+    justify-content: space-around;
+}
+.bloc{
+    width: 500px;
+    height: 500px;
+}
+.bloc h1{
+    color:white;
+    margin-left: 100px;
+}
+.bloc1{
+    background-color: green;
+    margin-left: 120px;
+}
+.bloc2{
+    background-color: blue;
+    margin-left: 8px;
+}
+.bloc3{
+    background-color: black;
+    margin-right: 100px;
+}
+.icones{
+    width: 50px;
+    height: auto;
+    /* background-color: red; */
+    margin: 20px 100px;
+}
+.icones img{
+    width: 100%;
+    height: auto;
+}
+.patient{
+    width: 300px;
+    height: 200px;
+    /* background-color: beige; */
+    margin:30px auto;
+}
+.patient p{
+    font-size: 35px;
+    color:white;
+}
+.listes{
+    width:145px;
+    height: auto;
+    margin:0 100px;
+    /* background-color: brown; */
+}
+.liste{
+    width:145px;
+    height: auto;
+    margin:-40px 100px;
+    /* background-color: brown; */
+}
+.list{
+    width:145px;
+    height: auto;
+    margin: 50px 100px;
+}
+.second_principal{
+    width: 100%;
+    height: 300px;
+    /* background-color: blueviolet; */
+    position:relative;
+    margin-top: -50px;
+}
+.second_bloc1{
+    width:450px;
+    height: auto;
+    /* background-color: red; */
+    display:inline-block;
+    position:absolute;   
+    left: 130px;
+}
+.second_bloc1 p{
+    font-size: 40px;
+}
+.second_bloc2{
+    width:1000px;
+    height: auto;
+    /* background-color: yellowgreen; */
+    display: inline-block;
+    position:absolute;
+    left:655px;
+}
+.BLOCK{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.second_bloc2 .BLOCK .bloc1{
+    width: 60px;
+    height: 30px;
+    margin-left: 10px;
+}
+.second_bloc2 .BLOCK .bloc21{
+    width: 160px;
+    height: 30px;
+    text-align: center;
+    font-size: 27px;
+}
+.second_bloc2 .BLOCK .bloc3{
+    width: 40px;
+    height: 30px;
+}
+.second_bloc2 .BLOCK .bloc4{
+    width: 160px;
+    height: 30px;
+    margin-left: -100px;
+    text-align: center;
+    font-size: 27px;
+}
+.second_bloc2 .BLOCK .bloc5{
+    width: 40px;
+    height: 30px;
+}
+.second_bloc2 .BLOCK .bloc6{
+    width: 160px;
+    height: 30px;
+    text-align: center;
+    font-size: 27px;
+}
+.second_bloc2 .BLOCK .bloc7{
+    width: 40px;
+    height: 30px;
+}
+.second_bloc2 .BLOCK .bloc8{
+    width: 290px;
+    height: 30px;
+    text-align: center;
+    font-size: 27px;
+}
+.second_bloc2 .BLOCK .bloc9{
+    width: 40px;
+    height: 30px;
+}
+.second_bloc2 .BLOCK .bloc10{
+    width: 160px;
+    height: 30px;
+    margin-right: 736px;
+    text-align: center;
+    font-size: 27px;
+}
+.second_bloc2 .BLOCK .bloc11{
+    width: 200px;
+    height: 30px;
+    margin-top: -44px;
+    margin-left: 120px;
+    margin-right: 100px;
+    text-align: center;
+    font-size: 27px;
+}
+.second_bloc2 .BLOCK .bloc12{
+    width: 160px;
+    height: 30px;
+    margin-top: -44px;
+    margin-right: 100px;
+    margin-left: -200px;
+    text-align: center;
+    font-size: 27px;
+}
+.second_bloc2 .BLOCK .bloc13{
+    width: 160px;
+    height: 30px;
+    margin-top: -44px;
+    margin-right: 100px;
+    margin-left: -200px;
+    text-align: center;
+    font-size: 27px;
+}
+.third{
+    width: 100%;
+    height: 740px;
+    background-color: aquamarine;
+    margin-top: -130px;
+    padding: 20px;
+    display:flex;
+    justify-content: space-evenly;
+    /* overflow: hidden; */
+}
+.under_third1{
+    width: 650px;
+    height: 630px;
+    /* background-color: brown; */
+    margin-left: 150px;
+    margin-top: 90px;
+   
+}
+.under_third2{
+    width: 700px;
+    height: 830px;
+    /* background-color:yellow; */
+    margin-right: 100px;
+    
+}
+.under_third1 .third01{
+    width: 100%;
+    height: auto;
+    /* background-color: blue; */
+    /* text-align: center; */
+    padding: 20px;
+}
+.third01 p{
+    font-size: 40px;
+}
+.under_third1 .third02{
+    width: 100%;
+    height: auto;
+    /* background-color: yellow; */
+    padding:20px;
+    /* text-align: center; */
+}
+.third02 p{
+    font-size: 20px;
+}
+.under_third1 .third03{
+    width: 100%;
+    height: 367px;
+    /* background-color: blanchedalmond; */
+}
+.under_third1 .third03 img{
+    width: 60%;
+    height: auto;
+    margin-top: 70px;
+    
+
+}
+.under_third011{
+    width: 680px;
+    height: 380px;
+    /* background-color: thistle; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.under_third011 .A1{
+    width: 290px;
+    height: 320px;
+    background-color:white;
+    border: 2px solid white;
+    margin-top: 50px;
+    text-align: center;
+}
+.under_third011 .A2{
+    width: 290px;
+    height: 320px;
+    background-color: white;
+    border:2px solid white;
+    text-align: center;
+}
+.under_third012{
+    width: 680px;
+    height: 380px;
+    /* background-color:seagreen; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.under_third012 .A3{
+    width: 290px;
+    height: 320px;
+    background-color:white;
+    border: 2px solid white;
+    margin-top: 10px;
+    text-align: center;
+}
+.under_third012 .A4{
+    width: 290px;
+    height: 320px;
+    background-color: white;
+    border:2px solid white;
+    margin-top: -40px;
+    text-align: center;
+
+}
+ .A1 .A1_image{
+    width: 40px;
+    height: auto;
+    /* background-color: orangered; */
+    margin:15px auto;
+}
+.A1 .A1_image img{
+    width: 100%;
+    height: auto;
+}
+.A1 .h1{
+    text-align: center;
+}
+.A1_paragraph{
+    width: 100%;
+    height: auto;
+    /* background-color: blueviolet; */
+    margin-top: 10px;
+}
+.A1_paragraph p{
+    font-size: 22px;
+}
+.A2 .A2_image{
+    width: 40px;
+    height: auto;
+    /* background-color: orangered; */
+    margin:40px auto;
+}
+.A2 .A2_image img{
+    width: 100%;
+    height: auto;
+}
+.A2 .h1{
+    text-align: center;
+    margin:30px;
+}
+.A2_paragraph{
+    width: 100%;
+    height: auto;
+    /* background-color: blueviolet; */
+    /* margin-top: 60px; */
+}
+.A2_paragraph p{
+    font-size: 22px;
+}
+
+.A3 .A3_image{
+    width: 40px;
+    height: auto;
+    /* background-color: orangered; */
+    margin:40px auto;
+}
+.A3 .A3_image img{
+    width: 100%;
+    height: auto;
+}
+.A3 .h1{
+    text-align: center;
+    margin:30px;
+}
+.A3_paragraph{
+    width: 100%;
+    height: auto;
+    /* background-color: blueviolet; */
+    /* margin-top: 60px; */
+}
+.A3_paragraph p{
+    font-size: 22px;
+}
+
+.A4 .A4_image{
+    width: 40px;
+    height: auto;
+    /* background-color: orangered; */
+    margin:40px auto;
+}
+.A4 .A4_image img{
+    width: 100%;
+    height: auto;
+}
+.A4 .h1{
+    text-align: center;
+    margin:30px;
+}
+.A4_paragraph{
+    width: 100%;
+    height: auto;
+    /* background-color: blueviolet; */
+    /* margin-top: 60px; */
+}
+.A4_paragraph p{
+    font-size: 22px;
+}
+
+.fourth{
+    width: 100%;
+    height: auto;
+    /* background-color: blue; */
+    margin-top: 80px;
+}
+.fourth .under_fourth1{
+    width: 100%;
+    height: auto;
+    /* background-color: blueviolet; */
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+}
+.fourth .under_fourth1 p{
+    font-size: 70px;
+}
+.fourth .under_fourth2{
+    width: 100%;
+    height: auto;
+    /* background-color: blueviolet; */
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+}
+.fourth .under_fourth2 p{
+    font-size: 30px;
+}
+
+
+
+
